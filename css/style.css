@@ -214,9 +214,8 @@ nav {
     color: var(--primary-color);
     transform: translateY(-3px);
 }
-
 .section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .section-title {
@@ -294,6 +293,59 @@ nav {
     text-align: center;
     position: relative;
 }
+
+/* Education */
+/* Education Section */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.education-item {
+  background: var(--bg-secondary);
+  padding: 1.8rem 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow-light);
+  transition: box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+  box-shadow: var(--shadow-medium);
+}
+
+.education-item h3 {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.edu-institution {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.edu-duration {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.edu-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Education */
+
+
+
 
 .profile-container {
     position: relative;
